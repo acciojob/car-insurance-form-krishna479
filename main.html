@@ -11,6 +11,47 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form method="post">
+		<div>
+			<label for="name">Name </label>
+			<input type="text" required placeholder="Name" id="name">
+		</div>
+		<div>
+			<label for="email">Email </label>
+			<input type="email" required placeholder="Email" id="email">
+		</div>
+		<div>
+			<div>Gender</div>
+			<label for="#gender_m">Male </label>
+			<input type="radio" required id="#gender_m" name="gender">
+			<label for="gender_f">Female </label>
+			<input type="radio" required id="gender_f" name="gender">
+		</div>
+		<div>
+			<label for="cars">Car Brands</label>
+			<select id="cars">
+				<option value="">--Please choose an option--</option>
+				<option value="1">BMW</option>
+				<option value="2">Audi</option>
+				<option value="3">Mercedez</option>
+			</select>
+		</div>
+		<div>
+			<label for="carage">Car Age</label>
+			<input type="number" required id="carage" placeholder="Age">
+		</div>
+		<div>
+			<label for="dop">Date of Purchase(dop)</label>
+			<input type="date" required id="dop">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" id="password" required placeholder="Password">
+		</div>
+		<div>
+			<button type="submit">submit button</button>
+		</div>
+	</form>
 </body>
 
 </html>
